@@ -1,0 +1,28 @@
+#home{
+    background: linear-gradient(to bottom, rgba(15, 16, 78, 0.6) 30%, transparent),
+     Url('../images/laptop.jpg') center/cover no-repeat border-box;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    padding: 13vh 13vw;
+}
+
+img{
+    width:300px;
+    height: 300px;
+    transition: opacity 1s ease-in-out;
+}
+
+img:hover{
+    opacity: .5;
+}
+
+.col-text{
+    column-count: 3;
+}
+
+#contactMe{
+    background-color: silver;
+    /* height: 40vh;
+    width: 100vw; */
+}
